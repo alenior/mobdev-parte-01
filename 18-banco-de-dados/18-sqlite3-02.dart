@@ -28,7 +28,7 @@ class AlunoDatabase {
   AlunoDatabase._init();
 
   Future<Database> get database async {
-    if (_database != null) return _database;
+    return _database;
 
     _database = await _initDB('aluno.db');
     return _database;

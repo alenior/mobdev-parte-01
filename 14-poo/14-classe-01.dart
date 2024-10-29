@@ -2,7 +2,6 @@
 // O uso de this quando os parametros do método construtor e
 // os atributos que serão inicializados possuem o mesmo nome.
 // 
-import 'dart:convert';
 
 class Point {
   int x = 0;
